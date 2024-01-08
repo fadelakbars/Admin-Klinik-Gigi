@@ -13,6 +13,7 @@
                                     <div class="w-25 h-25 d-flex align-items-center mb-3 pb-1">
                                         <img class="img-fluid" src="{{ asset('style/assets/img/klinik-fifin.jpg') }}"
                                             alt="logo">
+                                            tess
                                     </div>
 
                                     <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Login ke akun anda</h5>
