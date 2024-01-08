@@ -8,6 +8,10 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/login', function(){
+    return view ('login');
+});
+
 Route::get('/daftar-pasien', function () {
     return view('daftar-pasien',[
         "title" => "daftar-pasien"
