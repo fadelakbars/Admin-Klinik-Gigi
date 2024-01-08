@@ -6,14 +6,13 @@
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col col-xl-10">
                     <div class="card" style="border-radius: 1rem;">
-                        <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                        <div class="col-lg-14 d-flex align-items-center justify-content-center">
                             <div class="card-body p-4 p-lg-5 text-black">
                                 <form action="">
 
                                     <div class="w-25 h-25 d-flex align-items-center mb-3 pb-1">
                                         <img class="img-fluid" src="{{ asset('style/assets/img/klinik-fifin.jpg') }}"
                                             alt="logo">
-                                            tess
                                     </div>
 
                                     <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Login ke akun anda</h5>
@@ -35,7 +34,6 @@
                                     <a href="#!" class="small text-muted">Terms of use.</a>
                                     <a href="#!" class="small text-muted">Privacy policy</a>
                                 </form>
-
                             </div>
                         </div>
                     </div>
