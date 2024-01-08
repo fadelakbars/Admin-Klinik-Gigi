@@ -49,7 +49,7 @@
             <div class="scrollbar-inner sidebar-wrapper">
                 <ul class="nav">
                     <li class="nav-item {{ $title === 'form' ? 'active' : '' }}">
-                        <a href="/">
+                        <a href="/form-pasien">
                             <i class="la la-th-list"></i>
                             <p>Form Pasien</p>
                         </a>

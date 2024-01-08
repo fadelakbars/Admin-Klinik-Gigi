@@ -2,13 +2,13 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
+Route::get('/form-pasien', function () {
     return view('form',[
         "title" => "form",
     ]);
 });
 
-Route::get('/login', function(){
+Route::get('/', function(){
     return view ('login');
 });
 
@@ -30,12 +30,6 @@ Route::get('/edit-pasien', function () {
 });
 
 Route::get('/ekspor-data', function () {
-    return view('ekspor-data',[
-        "title" => "ekspor-data"
-    ]);
-});
-
-Route::get('', function () {
     return view('ekspor-data',[
         "title" => "ekspor-data"
     ]);
