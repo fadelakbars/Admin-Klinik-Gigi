@@ -20,7 +20,7 @@
         <div class="main-header bg-primary text-light">
             <div class="logo-header d-flex ml-2 ">
                 <div class="logo d-flex align-items-center">
-                    <img src="{{ asset('style/assets/img/klinik-fifin.jpg') }}" alt="" width="40px">
+                    <img src="{{ asset('style/assets/img/klinik-fifin.png') }}" alt="" width="40px">
                     <h4 class="text-light" style="margin-top: 10px; margin-left: 10px">Dasboard</h4>
 
                 </div>
