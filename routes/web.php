@@ -35,3 +35,10 @@ Route::get('/ekspor-data', function () {
     ]);
 });
 
+Route::get('', function () {
+    return view('ekspor-data',[
+        "title" => "ekspor-data"
+    ]);
+});
+
+
