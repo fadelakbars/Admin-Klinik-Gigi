@@ -22,6 +22,7 @@
                 <div class="logo d-flex align-items-center">
                     <img src="{{ asset('style/assets/img/klinik-fifin.jpg') }}" alt="" width="40px">
                     <h4 class="text-light" style="margin-top: 10px; margin-left: 10px">Dasboard</h4>
+
                 </div>
             </div>
             <nav class="navbar navbar-header navbar-expand-lg">
