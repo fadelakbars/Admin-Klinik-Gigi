@@ -8,6 +8,10 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/login', function(){
+    return view ('login');
+});
+
 Route::get('/daftar-pasien', function () {
     return view('daftar-pasien',[
         "title" => "daftar-pasien"
@@ -30,4 +34,11 @@ Route::get('/ekspor-data', function () {
         "title" => "ekspor-data"
     ]);
 });
+
+Route::get('', function () {
+    return view('ekspor-data',[
+        "title" => "ekspor-data"
+    ]);
+});
+
 
