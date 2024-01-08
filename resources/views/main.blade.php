@@ -17,11 +17,12 @@
 
 <body>
     <div class="wrapper">
-        <div class="main-header">
-            <div class="logo-header d-flex ml-2">
+        <div class="main-header bg-primary text-light">
+            <div class="logo-header d-flex ml-2 ">
                 <div class="logo d-flex align-items-center">
                     <img src="{{ asset('style/assets/img/klinik-fifin.jpg') }}" alt="" width="40px">
-                    <h4 style="margin-top: 10px; margin-left: 10px">Dasboard</h4>
+                    <h4 class="text-light" style="margin-top: 10px; margin-left: 10px">Dasboard</h4>
+
                 </div>
             </div>
             <nav class="navbar navbar-header navbar-expand-lg">

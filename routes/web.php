@@ -13,6 +13,11 @@ Route::get('/daftar-pasien', function () {
         "title" => "daftar-pasien"
     ]);
 });
+Route::get('/detail-pasien', function () {
+    return view('detail-pasien',[
+        "title" => "daftar-pasien"
+    ]);
+});
 
 Route::get('/edit-pasien', function () {
     return view('edit-pasien',[
@@ -25,5 +30,4 @@ Route::get('/ekspor-data', function () {
         "title" => "ekspor-data"
     ]);
 });
-
 
