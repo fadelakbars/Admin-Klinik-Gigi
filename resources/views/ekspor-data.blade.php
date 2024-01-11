@@ -36,7 +36,7 @@
                                             <td>{{ $pasien->tgl_lahir }}</td>
                                             <td>{{ $pasien->umur }}</td>
                                             <td>{{ $pasien->alamat }}</td>
-                                            <td>{{ $pasien->no_telp }}</td>
+                                            <td>{{ $pasien->no_tlp }}</td>
                                             <td>{{ $pasien->diagnosa }}</td>
                                             <td>{{ $pasien->terapi }}</td>
                                             <td>{{ $pasien->keterangan }}</td>

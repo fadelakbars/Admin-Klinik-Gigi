@@ -30,9 +30,9 @@ class PasienFactory extends Factory
             'no_tlp' => $this->faker->phoneNumber,
             'alamat' => $this->faker->address,
             'tgl_kunjungan' => $this->faker->date,
-            'diagnosa' => $this->faker->text,
-            'terapi' => $this->faker->text,
-            'keterangan' => $this->faker->text,
+            'diagnosa' => $this->faker->text(30),
+            'terapi' => $this->faker->text(30),
+            'keterangan' => $this->faker->text(30),
             'biaya' => $this->faker->numberBetween(10000, 100000),
         ];
     }
