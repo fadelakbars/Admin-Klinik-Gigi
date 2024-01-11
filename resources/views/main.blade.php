@@ -55,13 +55,13 @@
                         </a>
                     </li>
                     <li class="nav-item {{ $title === 'daftar-pasien' ? 'active' : '' }}">
-                        <a href="daftar-pasien">
+                        <a href="/daftar-pasien">
                             <i class="la la-users"></i>
                             <p>Daftar Pasien</p>
                         </a>
                     </li>
                     <li class="nav-item {{ $title === 'ekspor-data' ? 'active' : '' }}">
-                        <a href="ekspor-data">
+                        <a href="/ekspor-data">
                             <i class="la la-file-excel-o"></i>
                             <p>Ekapor Data </p>
                         </a>

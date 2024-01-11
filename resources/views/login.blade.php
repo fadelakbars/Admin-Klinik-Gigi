@@ -1,4 +1,5 @@
 @extends('layouts.login-signin')
+@section('title')
 
 @section('form')
     <section class="vh-100" style="background-color: #61859a;">

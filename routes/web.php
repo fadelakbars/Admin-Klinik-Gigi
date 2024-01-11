@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PasienController;
+
 
 Route::get('/', function () {
     return view('form',[
@@ -12,16 +14,9 @@ Route::get('/login', function(){
     return view ('login');
 });
 
-Route::get('/daftar-pasien', function () {
-    return view('daftar-pasien',[
-        "title" => "daftar-pasien"
-    ]);
-});
-Route::get('/detail-pasien', function () {
-    return view('detail-pasien',[
-        "title" => "daftar-pasien"
-    ]);
-});
+Route::get('/daftar-pasien', [PasienController::class , 'index'] );
+
+Route::get('/detail-pasien/{nama}-{id}', [PasienController::class, 'detail']);
 
 Route::get('/edit-pasien', function () {
     return view('edit-pasien',[
@@ -29,11 +24,7 @@ Route::get('/edit-pasien', function () {
     ]);
 });
 
-Route::get('/ekspor-data', function () {
-    return view('ekspor-data',[
-        "title" => "ekspor-data"
-    ]);
-});
+Route::get('/ekspor-data', [PasienController::class , 'ekspor'] );
 
 Route::get('', function () {
     return view('ekspor-data',[
